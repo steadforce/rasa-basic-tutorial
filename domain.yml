@@ -1,0 +1,14 @@
+intents:
+  - greet
+  - mood_great
+
+responses:
+  utter_greet:
+  - text: "Ja ich bin ein Bot und Entwickelt mit Rasa."
+
+  utter_happy:
+  - text: "Meine Entwickler waren die Mitarbeiter von Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
